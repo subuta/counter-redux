@@ -4,6 +4,8 @@
     "react/prop-types": 0,
     "react/react-in-jsx-scope": 0,
     "react/no-unknown-property": 0,
+    "no-fallthrough": 2,
+    "arrow-parens": [2, "as-needed"],
     "no-unused-vars": [2, { "vars": "all", "args": "none", "varsIgnorePattern": "^element$" }]
   }
 }
