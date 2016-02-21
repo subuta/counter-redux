@@ -1,7 +1,7 @@
 {
-  "name": "edit.js",
+  "name": "counter-redux",
   "version": "1.0.0",
-  "description": "editor implementation using deku",
+  "description": "example counter implementation using redux and decca",
   "main": "index.js",
   "scripts": {
     "start": "hjs-dev-server",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://subuta@github.com/goodpatch/edit.js.git"
+    "url": "git+https://subuta@github.com/subuta/counter-redux.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goodpatch/edit.js/issues"
+    "url": "https://github.com/subuta/counter-redux/issues"
   },
-  "homepage": "https://github.com/goodpatch/edit.js#readme",
+  "homepage": "https://github.com/subuta/counter-redux#readme",
   "dependencies": {
     "decca": "2.0.1",
     "lodash-amd": "^4.5.0",
@@ -33,6 +33,7 @@
     "babel-preset-es2015": "^6.5.0",
     "babel-preset-react": "^6.5.0",
     "babel-preset-react-hmre": "^1.1.0",
+    "babel-preset-stage-0": "^6.5.0",
     "eslint": "^2.2.0",
     "eslint-config-standard": "^5.1.0",
     "eslint-config-standard-react": "^2.3.0",
